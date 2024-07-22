@@ -1,0 +1,644 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+
+}
+
+:root {
+    --bg-color: #562b80fb;
+    --yellow: #fcb900
+}
+
+.home {
+
+    background-color: var(--bg-color);
+
+    background-image: url(./image/bg01.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.contactstyle {
+    display: flex;
+
+
+}
+
+.contactstyle>div {
+
+    background-color: #fcb900;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.contactstyle>div:hover {
+
+
+    background-color: var(--bg-color);
+
+}
+
+.navcontent>h3:hover {
+
+    color: var(--yellow);
+}
+
+
+
+.navbar {
+
+
+    height: 120px;
+    bottom: 710px;
+
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.logo {
+
+    padding-top: 25px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.navcontent {
+
+
+    padding-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+
+
+}
+
+.contactstyle {
+
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fcb900;
+    border-style: solid;
+    border-color: #fcb900;
+    border-radius: 15px;
+
+
+}
+
+.contactstyle:hover {
+
+    cursor: pointer;
+
+    border-style: solid;
+    border-color: #fcb900;
+    border-width: 2px;
+    background-color: var(--bg-color);
+
+}
+
+
+.enable {
+
+    width: 500px;
+    height: 700px;
+    color: #fcb900;
+    font-size: 50px;
+    padding: 70px;
+    font-weight: bolder;
+
+
+}
+
+.enable>p {
+
+    font-size: large;
+    color: white;
+    padding-top: 5px;
+    font-weight: bolder;
+
+}
+
+.enqcall {
+
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+
+    text-decoration: none;
+
+}
+
+.enqcall:hover {
+
+    cursor: pointer;
+    background-color: white;
+    color: #562b80fb;
+
+
+}
+
+.logo:hover {
+
+
+    cursor: pointer;
+
+
+}
+
+.navcontent:hover {
+
+    cursor: pointer;
+
+}
+
+.section-1 {
+    display: flex;
+
+}
+
+.personpic {
+
+    display: flex;
+    justify-content: right;
+    padding-left: 100px;
+    padding-top: 100px;
+
+
+}
+
+.whatsapp {
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+
+}
+
+.students {
+
+    position: absolute;
+    top: 150px;
+    right: 50px;
+
+}
+
+.placementimage {
+
+    position: absolute;
+    top: 70%;
+    left: 45%;
+
+
+}
+
+/* Section2 */
+
+.section2style {
+
+    background-color: white;
+    border-style: solid;
+    
+
+
+}
+
+.coursedetails>p{
+
+    color: grey;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.coursedetails>h1{
+
+    color: var(--bg-color);
+    padding-top: 15px;
+
+}
+
+.coursedetails>h2 {
+
+    color: black;
+
+
+
+}.coursedetails{
+
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+    
+}
+.imagewrapsub>div>img{
+
+    
+
+    height: 70px;
+    width: 150px;
+    object-fit: contain;
+
+    
+
+}
+.imagewrapsub>div{
+
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--bg-color);
+
+
+}
+.imagewrapsub>div:hover{
+
+    border-color: #fcb900;
+    cursor: pointer;
+    
+
+}
+.imagewrapsub>div>img:hover{
+
+
+    transition-duration: 0.5s;
+    transform: scale(1.07);
+
+}
+.imagewrapsub{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 1px;
+
+}
+.coursebuttonsub{
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #562b80fb;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.coursebutton{
+
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+.coursebuttonsub:hover{
+
+    background-color: var(--bg-color);
+    color: white;
+    cursor: pointer;
+
+}
+
+/* Section3 */
+
+.page3{
+
+    background-color: #f7f1ff;
+    height: 670px;
+    margin-top: 50px;
+
+}
+.pagesub1{
+
+    display: flex;
+
+}
+.pagesub1part1{
+    
+    margin: 80px 30px;
+    color:gray;
+    width: 460px;
+    height: 400px;
+    
+}
+.pagesub1part1>label{
+
+    font-size: larger;
+    color: black;
+
+}
+.pagesub1part1>h1{
+
+
+    color: var(--bg-color);
+    font-size: xx-large;
+    padding-bottom: 10px;
+
+}
+.pagesub1part1>p{
+
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.knowbutton{
+
+   
+    line-height: 140px;
+    padding: 15px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: large;
+
+}
+.knowbutton:hover{
+
+    background-color: var(--bg-color);
+    color: white;
+
+}
+.sub1part2{
+
+    width: 420px;
+    margin-top: 20px;
+    height: 500px;
+    padding-top: 80px;
+    transition-duration: 1s;
+
+}
+.sub1part2:hover{
+
+    transform: scale(1.07);
+    transition-duration: 1s;
+
+}
+.sub1part3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainsub1part3{
+
+    width: 500px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 18px;
+
+}
+.mainsub1part3>div{
+
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 180px;
+    height: 110px;
+    border-radius: 20px;
+    object-fit: contain;
+    
+
+}
+.intern{
+
+    line-height: 40px;
+
+
+}
+.placements200{
+
+    margin-left: 10px;
+    line-height: 40px;
+
+
+}
+.trainers{
+
+    margin-top: 9px;
+    margin-right: 10px;
+    line-height: 40px;
+
+}
+.experience{
+
+
+    margin-top: 9px;
+
+
+}
+.mainsub1part3>div>h1{
+
+    color: var(--bg-color);
+
+}
+
+/* SECTION-4 */
+
+.page4part1{
+
+    background-image: url(./image/bga2.svg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    background-position-y: 70px;
+
+}
+.page4part1>label{
+
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    line-height: 30px;
+
+}
+.page4part1>h2{
+
+    color: var(--bg-color);
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 70px;
+
+}
+.page4part1>p{
+
+    color: grey;
+    font-weight: 500;
+    font-size: large;
+   
+
+
+}
+.page4part2{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.page4part2>div{
+
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 10px 5px #e8e5e5;
+    line-height: 25px;
+
+
+}
+.page4part2>div>h2{
+
+    color: var(--bg-color);
+    line-height: 50px;
+
+}
+.page4part2>div>p{
+
+    color: gray;
+    font-weight: 500;
+
+}
+.section4knowmore{
+
+    padding: 15px 25px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+
+
+}
+.section4knowmorediv{
+
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.section4knowmore:hover{
+
+    background-color: var(--bg-color);
+    color: white;
+
+}
+.page4part2>div>img:hover{
+
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+/* SECTION-5 */
+
+.page5{
+
+    background-image: url(image/bg02.svg);
+    background-color: var(--bg-color);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: white;
+
+}
+.page5part1{
+
+    padding-left: 95px;
+    padding-top: 50px;
+
+}
+.page5part1>label{
+
+
+    font-size: x-large;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+.page5part1>h1{
+
+
+    font-size: xx-large;
+    line-height: 50px;
+
+}
+.page5part1>p{
+
+    font-size: larger;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.page5arrowimgset{
+
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+
+}
